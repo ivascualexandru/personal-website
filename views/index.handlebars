@@ -1,0 +1,44 @@
+
+<!doctype html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Alexandru's Personal Page</title>
+		<meta name="description" content="Personal Website Shenanigans">
+		<meta name="author" content="Alexandru Ivascu">
+		<link href="/stylesheets/style.css" type="text/css" rel="stylesheet" />
+		<script type="module" src="main.js"></script>
+		{{#each css}}
+        	<link rel="stylesheet" href="/css/{{this}}">
+    	{{/each}}
+	</head>
+	<body>
+		<header>
+			<h1>Home</h1>
+		</header>
+		{{#if msg}}
+ 			<aside>
+				<p class="msg">{{msg}}</p>
+			</aside>
+		{{/if}}
+		<main>
+			<img src="/public/profilePicture.png">
+			<p>This is Alexandru Ivascu's personal webpage. Users can check out my personal skills, projects, etc. here.</p>
+			<table>
+  				<tr>
+    				<th>Skill</th>
+    				<th>Aptitude</th>
+				</tr>
+  				<tr>
+    				<td>Python</td>
+    				<td>80%</td>
+  				</tr>
+  				<tr>
+    				<td>C++</td>
+    				<td>90%</td>
+  				</tr>
+			</table> 
+		</main>
+	</body>
+</html>
