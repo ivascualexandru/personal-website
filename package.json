@@ -27,7 +27,7 @@
 		"eslinter": "^3.2.1",
 		"express": "^4.17.1",
 		"handlebars": "^4.7.6",
-		"koa": "^2.13.0",
+		"koa": "^2.13.1",
 		"koa-body": "^4.2.0",
 		"koa-router": "^9.4.0",
 		"koa-session": "^6.0.0",
